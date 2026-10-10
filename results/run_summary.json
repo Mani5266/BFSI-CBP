@@ -1,0 +1,72 @@
+{
+ "device": "cuda",
+ "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+ "stocks": 50,
+ "detections": 316332,
+ "total_s": 2.4,
+ "gpu_warning": false,
+ "backtests": {
+  "window": [
+   "2007-09-17",
+   "2026-10-08"
+  ],
+  "cost_per_side": 0.001,
+  "elapsed_s": 1.6
+ },
+ "sweep": {
+  "shorts": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   35,
+   40,
+   45,
+   50,
+   55,
+   60
+  ],
+  "longs": [
+   100,
+   110,
+   120,
+   130,
+   140,
+   150,
+   160,
+   170,
+   180,
+   190,
+   200,
+   210,
+   220,
+   230,
+   240,
+   250
+  ],
+  "combos": 176,
+  "best": {
+   "sharpe": 0.720202124247417,
+   "short": 60,
+   "long": 100
+  },
+  "gpu_s": 0.29,
+  "cpu_s": 0.03,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "pattern_study": {
+  "note": "forward-return tensor ops ran batched on CUDA per mandate; apples-to-apples CPU numpy on same 50-stock workload took 0.51s vs 1.7s GPU (transfer-bound at this scale)",
+  "cpu_full50_s": 0.51,
+  "gpu_full50_s": 1.8
+ },
+ "dataset": {
+  "universe_source": "niftyindices",
+  "retrieval_date": "2026-10-08",
+  "fetch_date": "2026-10-08",
+  "auto_adjust": true,
+  "kaggle": "not used (login required; yfinance 2007-present sufficient)",
+  "bhavcopy": "substituted by 10-stock screener.in cross-check (NSE blocks automated pulls)"
+ }
+}

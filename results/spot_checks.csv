@@ -1,0 +1,5 @@
+stock,scan,date,check,pass
+ADANIPORTS,ichimoku-cloud-xover-5d,2026-10-08,"Close crossed above max(SpanA,SpanB) within 5d",True
+RELIANCE,golden-cross-historical,2025-05-29,genuine DMA50-DMA200 upward sign change on cached chart (diff>0 after diff<0),True
+INFY,golden-cross-historical,2025-12-15,genuine DMA50-DMA200 upward sign change on cached chart (diff>0 after diff<0),True
+HDFCBANK,golden-cross-historical,2025-03-25,genuine DMA50-DMA200 upward sign change on cached chart (diff>0 after diff<0),True

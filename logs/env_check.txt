@@ -1,0 +1,8 @@
+python=3.11.9 platform=Windows-10-10.0.26300-SP0
+nvidia-smi:
+name, driver_version, memory.total [MiB]
+NVIDIA GeForce RTX 3050 Laptop GPU, 596.08, 4096 MiB
+torch=2.1.0+cu121
+cuda_available=True
+gpu_name=NVIDIA GeForce RTX 3050 Laptop GPU
+[env_check] device=cuda gpu=NVIDIA GeForce RTX 3050 Laptop GPU torch=2.1.0+cu121 cuda=True
